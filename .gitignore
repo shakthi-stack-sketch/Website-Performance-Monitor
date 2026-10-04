@@ -1,0 +1,52 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node.js dependencies
+node_modules/
+
+# Frontend/build output
+dist/
+build/
+.cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Local uploads / generated runtime data
+uploads/
+temp/
+tmp/
